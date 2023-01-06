@@ -19,7 +19,6 @@ const AdminOrders = () => {
     const remove = async (id : string) => {
         await dispatch(deleteOrder(id))
         await dispatch(getOrdersArray());
-        console.log(id)
     } 
 
     const createOrders = orders.map((order) => {

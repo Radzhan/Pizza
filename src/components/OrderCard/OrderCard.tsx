@@ -1,6 +1,4 @@
 import React from 'react';
-import { useAppDispatch, useAppSelector } from '../../app/hooks';
-import { dishesArray, getPrice } from '../../store/pizza';
 
 interface Props {
     title: string;

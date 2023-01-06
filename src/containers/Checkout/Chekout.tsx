@@ -14,8 +14,6 @@ const Chekout = () => {
         return sum + cardDish.amounte * cardDish.price;
     }, 0);
 
-    console.log(totalNumber)
-
     const getCard = totalNumber.map(number => {
         return <OrderCard price={number.price} amount={number.amounte} title={number.title} key={number.id}/>
     })

@@ -83,7 +83,6 @@ export const getOrdersArray = createAsyncThunk<OrdersApi[][]>('pizza/getOrder', 
             return orderForArray;
         });
     });
-    console.log(setOrder)
     return setOrder;
 })
 
